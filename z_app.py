@@ -3,7 +3,7 @@ import sqlite3
 import datetime
 
 # 1. 최고 관리자(원장님) 아이디 설정 (이 아이디로 가입하셔야 수정 권한이 생깁니다!)
-ADMIN_ID = "admin" 
+ADMIN_ID = "wiser7" 
 
 # 2. 데이터베이스 세팅 
 conn = sqlite3.connect('z_platform.db', check_same_thread=False)
