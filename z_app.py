@@ -76,7 +76,7 @@ with st.sidebar:
 # 7. 메인 피드 (글쓰기 영역)
 if st.session_state.logged_in:
     with st.container():
-        content = st.text_area("", placeholder="새로운 수학 퀘스트나 공지를 남겨주세요!", label_visibility="collapsed")
+        content = st.text_area("", placeholder="새로운 소식이나 사진 영상들 남겨주세요!", label_visibility="collapsed")
         media_file = st.file_uploader("", type=['png', 'jpg', 'jpeg', 'mp4'], label_visibility="collapsed")
         
         if st.button("Post"):
